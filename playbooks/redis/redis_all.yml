@@ -1,0 +1,5 @@
+---
+- include: redis-install.yml
+- include: redis-trib.yml
+- include: redis-add-passwd.yml
+...
