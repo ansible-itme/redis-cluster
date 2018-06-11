@@ -1,0 +1,6 @@
+---
+- hosts: redis-cluster
+  remote_user: root
+  roles:
+    - redis
+...

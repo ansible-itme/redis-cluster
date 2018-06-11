@@ -1,0 +1,4 @@
+redis_dir: /data
+redis1: 10.168.1.124
+redis2: 10.168.1.141
+redis_files: /etc/ansible/redis-cluster/roles/redis/files
