@@ -1,4 +1,9 @@
+#redis_dir如果设置为根目录下的二级录.应该修改redis_conf.sh里的$4改为$5,如果redis_dir是三级目录就改成$6,以此类推
 redis_dir: /data
 redis1: 10.168.1.124
 redis2: 10.168.1.141
 redis_files: /etc/ansible/redis-cluster/roles/redis/files
+port1: 7000
+port2: 7001
+port3: 7002
+password: JKH6FLSDJiJOeE0H9374

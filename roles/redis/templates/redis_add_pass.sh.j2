@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for j in `find {{ redis_dir }}/redis_cluster -name redis.conf`;do
+	echo "masterauth {{ password }}" >> $j
+	echo "requirepass {{ password }}" >> $j
+	redis-server $j
+done
+

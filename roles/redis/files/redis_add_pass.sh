@@ -1,5 +1,5 @@
 #!/bin/bash
-password=jRkklwn5lerw9onkso
+password=RqmoIpdjed
 
 for j in `find /data/redis_cluster -name redis.conf`;do
 	echo "masterauth $password" >> $j
